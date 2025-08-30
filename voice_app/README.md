@@ -1,12 +1,23 @@
-# React + Vite
+# React + Vite + NLP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+::THIS IS A VOICE BASED SHOPPING ASSISTANT BASED ON REACT + NLP,WITH THE FOLLOWING FEATURES::
 
-Currently, two official plugins are available:
+1)NLP based voice recognition , parsing and voice to text transformation,So that your speech gets recognised in the shopping list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2)MultiLingual - As of now I have made it compatible for English and Hindi Users,but multiple other langauges can also be implemented as per need.
 
-## Expanding the ESLint configuration
+3)History based Smart suggestion - It saves the choice of the user locally and then suggests them the suitable related products.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4)Shopping list Managment - Add/Remove items using voice commands.
+                          - Partial Removal of items is also enabled. 
+                          - Quantity recognition enabled.
+
+5)UI/UX - Minimalist Interface and easy to understand.
+
+6)Code Centralization - The single page code enables the coders to understand the flow.
+
+7) !!! VOICE BASED WELCOMING AND REMINDING OF THE QUANTITIES IN THE LIST !!!
+
+use 
+npm run start 
+
